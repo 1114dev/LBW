@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+<defs>
+<filter id="shadow-byn" x="-5%" y="-5%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.12"/></filter>
+<clipPath id="clip-byn"><rect x="10" y="10" width="220" height="140" rx="14"/></clipPath>
+<linearGradient id="folds-byn" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#000" stop-opacity="0.3"/><stop offset="15%" stop-color="#fff" stop-opacity="0.15"/><stop offset="35%" stop-color="#000" stop-opacity="0.25"/><stop offset="55%" stop-color="#fff" stop-opacity="0.1"/><stop offset="80%" stop-color="#000" stop-opacity="0.35"/><stop offset="100%" stop-color="#fff" stop-opacity="0.15"/></linearGradient>
+<linearGradient id="vignette-byn" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff" stop-opacity="0.1"/><stop offset="50%" stop-color="#000" stop-opacity="0.0"/><stop offset="100%" stop-color="#000" stop-opacity="0.4"/></linearGradient>
+<style>.label{font-family:'DejaVu Sans',Arial,sans-serif;font-size:13px;font-weight:600;fill:#fff;text-anchor:middle;letter-spacing:2px}.dark-circle{fill:#000;fill-opacity:0.45}.currency{font-family:'DejaVu Sans','Segoe UI',Arial,sans-serif;font-size:56px;font-weight:900;fill:#fff;text-anchor:middle;dominant-baseline:central}</style>
+</defs>
+<g filter="url(#shadow-byn)">
+<rect x="10" y="10" width="220" height="140" rx="14" fill="#CE1720"/>
+<g clip-path="url(#clip-byn)">
+<rect x="10" y="10" width="220" height="140" fill="#CE1720"/>
+<rect x="10" y="103" width="220" height="47" fill="#007C30"/>
+<rect x="10" y="10" width="28" height="140" fill="#ffffff" fill-opacity="0.3"/>
+<line x1="24" y1="10" x2="24" y2="150" stroke="#ffffff" stroke-width="2" opacity="0.9"/>
+<line x1="34" y1="10" x2="34" y2="150" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>
+<polygon points="24,30 30,35 24,40 18,35" fill="#ffffff" opacity="0.8"/>
+<polygon points="24,50 30,55 24,60 18,55" fill="#ffffff" opacity="0.8"/>
+<polygon points="24,70 30,75 24,80 18,75" fill="#ffffff" opacity="0.8"/>
+<polygon points="24,90 30,95 24,100 18,95" fill="#ffffff" opacity="0.8"/>
+<polygon points="24,110 30,115 24,120 18,115" fill="#ffffff" opacity="0.8"/>
+<rect x="10" y="10" width="220" height="140" fill="url(#folds-byn)"/>
+<rect x="10" y="10" width="220" height="140" fill="url(#vignette-byn)"/>
+</g>
+<rect x="10" y="10" width="220" height="140" rx="14" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+</g>
+<circle cx="120" cy="78" r="42" class="dark-circle"/>
+<text x="120" y="84" class="currency">Br</text>
+<text x="120" y="135" class="label">BYN</text>
+</svg>
