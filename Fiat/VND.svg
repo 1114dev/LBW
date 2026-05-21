@@ -1,22 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
-<defs>
-<filter id="shadow-vnd" x="-5%" y="-5%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.12"/></filter>
-<clipPath id="clip-vnd"><rect x="10" y="10" width="220" height="140" rx="14"/></clipPath>
-<linearGradient id="folds-vnd" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#000" stop-opacity="0.3"/><stop offset="15%" stop-color="#fff" stop-opacity="0.15"/><stop offset="35%" stop-color="#000" stop-opacity="0.25"/><stop offset="55%" stop-color="#fff" stop-opacity="0.1"/><stop offset="80%" stop-color="#000" stop-opacity="0.35"/><stop offset="100%" stop-color="#fff" stop-opacity="0.15"/></linearGradient>
-<linearGradient id="vignette-vnd" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff" stop-opacity="0.1"/><stop offset="50%" stop-color="#000" stop-opacity="0.0"/><stop offset="100%" stop-color="#000" stop-opacity="0.4"/></linearGradient>
-<style>.label{font-family:'DejaVu Sans',Arial,sans-serif;font-size:13px;font-weight:600;fill:#fff;text-anchor:middle;letter-spacing:2px}.dark-circle{fill:#000;fill-opacity:0.45}.currency{font-family:'DejaVu Sans','Segoe UI',Arial,sans-serif;font-size:56px;font-weight:900;fill:#fff;text-anchor:middle;dominant-baseline:central}</style>
-</defs>
-<g filter="url(#shadow-vnd)">
-<rect x="10" y="10" width="220" height="140" rx="14" fill="#DA251D"/>
-<g clip-path="url(#clip-vnd)">
-<rect x="10" y="10" width="220" height="140" fill="#DA251D"/>
-<polygon points="120,35 127,58 152,58 131,72 139,96 120,82 101,96 109,72 88,58 113,58" fill="#FFFF00"/>
-<rect x="10" y="10" width="220" height="140" fill="url(#folds-vnd)"/>
-<rect x="10" y="10" width="220" height="140" fill="url(#vignette-vnd)"/>
-</g>
-<rect x="10" y="10" width="220" height="140" rx="14" fill="none" stroke="#cbd5e1" stroke-width="1"/>
-</g>
-<circle cx="120" cy="78" r="42" class="dark-circle"/>
-<text x="120" y="84" class="currency">₫</text>
-<text x="120" y="135" class="label">VND</text>
+<!-- 14. Вьетнам (Пропорции 2:3) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="300" height="200">
+  <rect width="900" height="600" fill="#DA251D"/>
+  <polygon points="450,120 485.2,228.4 599,228.4 507,295.2 542.2,403.6 450,336.8 357.8,403.6 393,295.2 301,228.4 414.8,228.4" fill="#FFFF00"/>
 </svg>
