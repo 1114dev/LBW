@@ -1,0 +1,13 @@
+<!-- 10. Азербайджан (Пропорции 1:2) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="400" height="200">
+  <rect width="1200" height="200" fill="#00BFFF"/>
+  <rect y="200" width="1200" height="200" fill="#E01A22"/>
+  <rect y="400" width="1200" height="200" fill="#009857"/>
+  <!-- Полумесяц и 8-конечная звезда -->
+  <g transform="translate(600, 300)" fill="#fff">
+    <circle cx="-15" cy="0" r="60"/>
+    <circle cx="3" cy="0" r="48" fill="#E01A22"/>
+    <polygon points="35,-12 40,-32 52,-17 71,-24 60,-5 76,9 57,10 50,28 40,10 21,11 32,-5" transform="translate(5, 0)"/>
+  </g>
+  <rect width="1200" height="600" fill="none" stroke="rgba(0,0,0,0.05)" stroke-width="2"/>
+</svg>
