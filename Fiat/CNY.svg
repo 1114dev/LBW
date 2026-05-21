@@ -1,0 +1,12 @@
+<!-- 8. Китай (Пропорции 2:3) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="300" height="200">
+  <defs>
+    <polygon id="cn-star" points="0,-30 8.82,-9.27 30.9,-9.27 13.09,4.91 19.92,26.18 0,13.09 -19.92,26.18 -13.09,4.91 -30.9,-9.27 -8.82,-9.27" fill="#FFDE00"/>
+  </defs>
+  <rect width="900" height="600" fill="#EE1C25"/>
+  <use href="#cn-star" transform="translate(150, 150) scale(1)"/>
+  <use href="#cn-star" transform="translate(300, 60) scale(0.333) rotate(23.04)"/>
+  <use href="#cn-star" transform="translate(360, 120) scale(0.333) rotate(45.78)"/>
+  <use href="#cn-star" transform="translate(360, 210) scale(0.333) rotate(69.94)"/>
+  <use href="#cn-star" transform="translate(300, 270) scale(0.333) rotate(19.29)"/>
+</svg>
