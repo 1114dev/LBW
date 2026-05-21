@@ -1,60 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+<!-- 9. Австралия (Пропорции 1:2) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="400" height="200">
   <defs>
-    <filter id="shadow" x="-5%" y="-5%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.12"/>
-    </filter>
-    <style>
-      .label { font-family: 'DejaVu Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #ffffff; text-anchor: middle; letter-spacing: 2px; }
-      .dark-circle { fill: #000000; fill-opacity: 0.35; }
-      .currency { font-family: 'DejaVu Sans', 'Segoe UI', Arial, sans-serif; font-size: 56px; font-weight: 900; fill: #ffffff; text-anchor: middle; dominant-baseline: central; }
-      .star { fill: #ffffff; }
-    </style>
-    <clipPath id="card-clip">
-      <rect x="10" y="10" width="220" height="140" rx="14" />
-    </clipPath>
-    <clipPath id="canton-clip">
-      <rect x="10" y="10" width="110" height="70" />
-    </clipPath>
+    <g id="star-7pt"><path d="M0,-25 L5.7,-8.5 L22.5,-11.1 L11.4,2.5 L19.5,19.1 L2.5,11.4 L-11.4,24.3 L-8.5,5.7 L-24.3,-2.5 L-7.2,-5.7 Z" fill="#fff"/></g>
+    <g id="star-5pt"><polygon points="0,-12 3.5,-2.5 12.3,-2.5 5.2,3.3 7.9,12 0,6.6 -7.9,12 -5.2,3.3 -12.3,-2.5 -3.5,-2.5" fill="#fff"/></g>
   </defs>
-  
-  <!-- Card Background -->
-  <rect x="10" y="10" width="220" height="140" rx="14" fill="#012169" stroke="#cbd5e1" stroke-width="1" filter="url(#shadow)"/>
-
-  <g clip-path="url(#card-clip)">
-    <!-- Union Jack -->
-    <g clip-path="url(#canton-clip)">
-      <!-- White Saltire -->
-      <line x1="10" y1="10" x2="120" y2="80" stroke="#ffffff" stroke-width="12" />
-      <line x1="120" y1="10" x2="10" y2="80" stroke="#ffffff" stroke-width="12" />
-      <!-- Red Saltire -->
-      <line x1="10" y1="10" x2="120" y2="80" stroke="#E0162B" stroke-width="4" />
-      <line x1="120" y1="10" x2="10" y2="80" stroke="#E0162B" stroke-width="4" />
-      <!-- White Cross -->
-      <line x1="65" y1="10" x2="65" y2="80" stroke="#ffffff" stroke-width="16" />
-      <line x1="10" y1="45" x2="120" y2="45" stroke="#ffffff" stroke-width="16" />
-      <!-- Red Cross -->
-      <line x1="65" y1="10" x2="65" y2="80" stroke="#E0162B" stroke-width="10" />
-      <line x1="10" y1="45" x2="120" y2="45" stroke="#E0162B" stroke-width="10" />
-    </g>
-
-    <!-- Commonwealth Star (7 points) -->
-    <polygon class="star" points="65.00,97.00 68.12,108.51 79.07,103.78 72.02,113.40 82.55,119.01 70.63,119.49 72.81,131.22 65.00,122.20 57.19,131.22 59.37,119.49 47.45,119.01 57.98,113.40 50.93,103.78 61.88,108.51" />
-
-    <!-- Southern Cross -->
-    <!-- Alpha Crucis (7 points) -->
-    <polygon class="star" points="175.00,116.67 176.74,123.06 182.82,120.43 178.90,125.78 184.75,128.89 178.13,129.16 179.34,135.68 175.00,130.67 170.66,135.68 171.87,129.16 165.25,128.89 171.10,125.78 167.18,120.43 173.26,123.06" />
-    <!-- Beta Crucis (7 points) -->
-    <polygon class="star" points="147.50,61.25 149.24,67.65 155.32,65.02 151.40,70.36 157.25,73.48 150.63,73.74 151.84,80.26 147.50,75.25 143.16,80.26 144.37,73.74 137.75,73.48 143.60,70.36 139.68,65.02 145.76,67.65" />
-    <!-- Gamma Crucis (7 points) -->
-    <polygon class="star" points="175.00,23.33 176.74,29.73 182.82,27.10 178.90,32.44 184.75,35.56 178.13,35.83 179.34,42.34 175.00,37.33 170.66,42.34 171.87,35.83 165.25,35.56 171.10,32.44 167.18,27.10 173.26,29.73" />
-    <!-- Delta Crucis (7 points) -->
-    <polygon class="star" points="202.50,52.50 204.24,58.90 210.32,56.27 206.40,61.61 212.25,64.73 205.63,64.99 206.84,71.51 202.50,66.50 198.16,71.51 199.37,64.99 192.75,64.73 198.60,61.61 194.68,56.27 200.76,58.90" />
-    <!-- Epsilon Crucis (5 points) -->
-    <polygon class="star" points="188.75,82.75 190.22,86.73 194.46,86.90 191.13,89.52 192.28,93.60 188.75,91.25 185.22,93.60 186.37,89.52 183.04,86.90 187.28,86.73" />
+  <rect width="1200" height="600" fill="#012169"/>
+  <!-- Кантон (Юнион Джек) -->
+  <g id="canton" transform="scale(0.5)">
+    <path d="M0,0 L1200,600 M0,600 L1200,0" stroke="#fff" stroke-width="120"/>
+    <path d="M0,0 L1200,600 M0,600 L1200,0" stroke="#C8102E" stroke-width="40"/>
+    <path d="M0,0 L600,300 M1200,600 L600,300" stroke="#C8102E" stroke-width="40" stroke-dasharray="0 40 600 0"/>
+    <path d="M600,300 L1200,0 M600,300 L0,600" stroke="#C8102E" stroke-width="40" stroke-dasharray="600 40 0 0"/>
+    <path d="M600,0 V600 M0,300 H1200" stroke="#fff" stroke-width="200"/>
+    <path d="M600,0 V600 M0,300 H1200" stroke="#C8102E" stroke-width="120"/>
   </g>
-
-  <!-- Central Overlay -->
-  <circle cx="120" cy="78" r="42" class="dark-circle"/>
-  <text x="120" y="84" class="currency">$</text>
-  <text x="120" y="135" class="label">AUD</text>
+  <!-- Звезда Содружества -->
+  <use href="#star-7pt" transform="translate(300, 450) scale(1.6)"/>
+  <!-- Южный Крест -->
+  <use href="#star-7pt" transform="translate(900, 105) scale(0.9)"/>
+  <use href="#star-7pt" transform="translate(1032, 246) scale(0.9)"/>
+  <use href="#star-7pt" transform="translate(900, 495) scale(0.9)"/>
+  <use href="#star-7pt" transform="translate(768, 336) scale(0.9)"/>
+  <use href="#star-5pt" transform="translate(954, 282)"/>
 </svg>
+
