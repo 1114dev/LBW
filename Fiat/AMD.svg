@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" width="120" height="80">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .card { fill:#fff; stroke:#e2e8f0; stroke-width:1.5; rx:10; }
+      .symbol { font-family:'DejaVu Sans',Arial,sans-serif; font-size:20px; font-weight:bold; fill:#1e293b; text-anchor:middle; }
+    </style>
+  </defs>
+  <rect width="120" height="80" rx="10" class="card" filter="url(#shadow)"/>
+  <!-- Флаг Армении -->
+  <rect x="15" y="20" width="36" height="13.3" fill="#D90012"/>
+  <rect x="15" y="33.3" width="36" height="13.4" fill="#0033A0"/>
+  <rect x="15" y="46.7" width="36" height="13.3" fill="#F2A800"/>
+  <text x="73" y="50" class="symbol">֏</text>
+</svg>
