@@ -1,16 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" width="120" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
   <defs>
     <filter id="shadow" x="-5%" y="-5%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08"/>
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.12"/>
     </filter>
     <style>
-      .card { fill:#fff; stroke:#e2e8f0; stroke-width:1.5; rx:10; }
-      .symbol { font-family:'DejaVu Sans',Arial,sans-serif; font-size:20px; font-weight:bold; fill:#1e293b; text-anchor:middle; }
+      .label { font-family: 'DejaVu Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #ffffff; text-anchor: middle; letter-spacing: 2px; }
+      .dark-circle { fill: #000000; fill-opacity: 0.35; }
+      .currency { font-family: 'DejaVu Sans', 'Segoe UI', Arial, sans-serif; font-size: 56px; font-weight: 900; fill: #ffffff; text-anchor: middle; dominant-baseline: central; }
     </style>
   </defs>
-  <rect width="120" height="80" rx="10" class="card" filter="url(#shadow)"/>
-  <!-- Флаг Вьетнама -->
-  <rect x="15" y="20" width="36" height="40" fill="#DA251D"/>
-  <polygon points="33,26 35,33 42,33 36,38 38,45 33,41 28,45 30,38 24,33 31,33" fill="#FFFF00"/>
-  <text x="73" y="50" class="symbol">₫</text>
+  <rect x="10" y="10" width="220" height="140" rx="14" fill="#DA251D" stroke="#cbd5e1" stroke-width="1" filter="url(#shadow)"/>
+  <!-- Жёлтая звезда -->
+  <polygon points="120,35 127,58 152,58 131,72 139,96 120,82 101,96 109,72 88,58 113,58" fill="#FFFF00"/>
+  <circle cx="120" cy="78" r="42" class="dark-circle"/>
+  <text x="120" y="84" class="currency">₫</text>
+  <text x="120" y="135" class="label">VND</text>
 </svg>
